@@ -3,7 +3,7 @@
 		"command": "run_macro_file", "args": {"file": "Packages/UnindentPreprocessor/Unindent Preprocessor.sublime-macro"},
 		"context":
 		[
-			{ "key": "selector", "operator": "equal", "operand": "source.c, source.c++" },
+			{ "key": "selector", "operator": "equal", "operand": "source.c, source.c++, source.objc, source.objc++" },
 			{ "key": "preceding_text", "operator": "regex_contains", "operand": "^\\s+$", "match_all": true }
 		]
 	}
